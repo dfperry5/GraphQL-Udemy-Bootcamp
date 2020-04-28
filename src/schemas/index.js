@@ -1,5 +1,5 @@
-const {fileLoader, mergeTypes } = require('merge-graphql-schemas');
-const path = require('path');
+import {fileLoader, mergeTypes } from 'merge-graphql-schemas'
+import path from 'path'
 
 const typesArray = fileLoader(path.join(__dirname, './'), 
     {

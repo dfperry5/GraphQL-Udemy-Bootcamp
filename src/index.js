@@ -1,12 +1,12 @@
 // NPM Dependencies
-const { ApolloServer } = require('apollo-server-express')
-const https = require('https')
-const fs = require('fs')
+import { ApolloServer } from 'apollo-server-express'
+import https from 'https';
+import fs from 'fs';
 
 // Inner App Dependencies
-const typeDefs = require('./schemas');
-const resolvers = require('./resolvers')
-const app = require('./middleware')
+import typeDefs from './schemas'
+import resolvers from './resolvers'
+import app from './middleware'
 
 // Create GraphQL Layer
 const apolloGql = new ApolloServer({

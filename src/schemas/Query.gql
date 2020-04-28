@@ -3,4 +3,9 @@ type Query {
     name: String!
     location: String!
     bio: String!
+    title: String!
+    price: Float!
+    releaseYear: Int
+    rating: Float
+    inStock: Boolean
 }
