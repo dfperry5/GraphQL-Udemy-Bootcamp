@@ -17,7 +17,7 @@
     "url": "https://github.com/dfperry5/GraphQL-Udemy-Bootcamp/issues"
   },
   "dependencies": {
-    "apollo-server-express": "^2.12.0",
+    "apollo-server-express": "^2.14.2",
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "body-parser": "^1.19.0",
